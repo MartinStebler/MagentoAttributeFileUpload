@@ -1,0 +1,1 @@
+/Users/mstebler/Sites/magento-sample/vendor/magento/module-search/view/frontend/web/form-mini.js

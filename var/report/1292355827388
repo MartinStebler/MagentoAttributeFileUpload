@@ -1,0 +1,8 @@
+a:4:{i:0;s:202:"Please upgrade your database: Run "bin/magento setup:upgrade" from the Magento root directory. 
+The following modules are outdated:
+Dev98_Datasheet data: current version - none, required version - 1.0.0";i:1;s:943:"#0 /Users/mstebler/Sites/magento-sample/vendor/magento/framework/Interception/Interceptor.php(142): Magento\Framework\Module\Plugin\DbStatusValidator->aroundDispatch(Object(Magento\Framework\App\FrontController\Interceptor), Object(Closure), Object(Magento\Framework\App\Request\Http))
+#1 /Users/mstebler/Sites/magento-sample/var/generation/Magento/Framework/App/FrontController/Interceptor.php(26): Magento\Framework\App\FrontController\Interceptor->___callPlugins('dispatch', Array, Array)
+#2 /Users/mstebler/Sites/magento-sample/vendor/magento/framework/App/Http.php(135): Magento\Framework\App\FrontController\Interceptor->dispatch(Object(Magento\Framework\App\Request\Http))
+#3 /Users/mstebler/Sites/magento-sample/vendor/magento/framework/App/Bootstrap.php(258): Magento\Framework\App\Http->launch()
+#4 /Users/mstebler/Sites/magento-sample/index.php(39): Magento\Framework\App\Bootstrap->run(Object(Magento\Framework\App\Http))
+#5 {main}";s:3:"url";s:113:"/admin_1c579c/catalog/product_attribute/new/key/e7fd40ff689cfee3f02920b7b90fa30a2989cac39fd2df22920427b25cb5d306/";s:11:"script_name";s:10:"/index.php";}

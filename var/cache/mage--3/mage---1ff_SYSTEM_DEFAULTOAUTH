@@ -1,0 +1,2 @@
+a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1497536050;s:6:"expire";i:9999999999;s:4:"tags";s:37:"1ff_CONFIG_SCOPES,1ff_CONFIG,1ff_MAGE";}
+a:3:{s:7:"cleanup";a:2:{s:19:"cleanup_probability";s:3:"100";s:17:"expiration_period";s:3:"120";}s:8:"consumer";a:3:{s:17:"expiration_period";s:3:"300";s:17:"post_maxredirects";s:1:"0";s:12:"post_timeout";s:1:"5";}s:19:"authentication_lock";a:2:{s:18:"max_failures_count";s:1:"6";s:7:"timeout";s:4:"1800";}}

@@ -1,0 +1,2 @@
+a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1497536050;s:6:"expire";i:9999999999;s:4:"tags";s:37:"1ff_CONFIG_SCOPES,1ff_CONFIG,1ff_MAGE";}
+a:2:{s:9:"format_v1";a:1:{s:9:"page_size";s:4:"5000";}s:9:"format_v2";a:2:{s:9:"page_size";s:5:"10000";s:10:"bunch_size";s:3:"100";}}

@@ -1,0 +1,2 @@
+a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1497536050;s:6:"expire";i:9999999999;s:4:"tags";s:37:"1ff_CONFIG_SCOPES,1ff_CONFIG,1ff_MAGE";}
+a:5:{s:7:"options";a:3:{s:5:"allow";s:3:"CHF";s:4:"base";s:3:"CHF";s:7:"default";s:3:"CHF";}s:12:"yahoofinance";a:1:{s:7:"timeout";s:3:"100";}s:7:"fixerio";a:1:{s:7:"timeout";s:3:"100";}s:11:"webservicex";a:1:{s:7:"timeout";s:3:"100";}s:6:"import";a:4:{s:7:"enabled";s:1:"0";s:11:"error_email";N;s:20:"error_email_identity";s:7:"general";s:20:"error_email_template";s:36:"currency_import_error_email_template";}}

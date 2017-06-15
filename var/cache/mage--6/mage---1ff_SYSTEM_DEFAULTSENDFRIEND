@@ -1,0 +1,2 @@
+a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1497536050;s:6:"expire";i:9999999999;s:4:"tags";s:37:"1ff_CONFIG_SCOPES,1ff_CONFIG,1ff_MAGE";}
+a:1:{s:5:"email";a:6:{s:7:"enabled";s:1:"1";s:8:"template";s:25:"sendfriend_email_template";s:11:"allow_guest";s:1:"0";s:14:"max_recipients";s:1:"5";s:12:"max_per_hour";s:1:"5";s:8:"check_by";s:1:"0";}}

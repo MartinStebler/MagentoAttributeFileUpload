@@ -1,0 +1,87 @@
+a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1497536649;s:6:"expire";i:9999999999;s:4:"tags";s:91:"1ff_CATALOG_PRODUCT_RELOAD,1ff_CATALOG_PRODUCT_SIMPLE,1ff_LAYOUT_GENERAL_CACHE_TAG,1ff_MAGE";}
+<referenceContainer name="content">
+   <uiComponent name="product_form"/>
+   <referenceContainer name="product_form">
+      <block name="gallery" class="Magento\Catalog\Block\Adminhtml\Product\Helper\Form\Gallery">
+         <arguments>
+            <argument name="config" xsi:type="array">
+               <item name="label" translate="true" xsi:type="string">Images</item>
+               <item name="collapsible" xsi:type="boolean">true</item>
+               <item name="opened" xsi:type="boolean">false</item>
+               <item name="sortOrder" xsi:type="string">22</item>
+               <item name="canShow" xsi:type="boolean">true</item>
+               <item name="componentType" xsi:type="string">fieldset</item>
+            </argument>
+         </arguments>
+         <block class="Magento\Catalog\Block\Adminhtml\Product\Helper\Form\Gallery\Content" as="content">
+            <arguments>
+               <argument name="config" xsi:type="array">
+                  <item name="parentComponent" xsi:type="string">product_form.product_form.block_gallery.block_gallery</item>
+               </argument>
+            </arguments>
+            <block class="Magento\ProductVideo\Block\Adminhtml\Product\Edit\NewVideo" name="new-video" template="Magento_ProductVideo::product/edit/slideout/form.phtml"/>
+         </block>
+      </block>
+   </referenceContainer>
+</referenceContainer>
+<head>
+   <css src="Magento_Weee::styles.css"/>
+</head>
+<referenceContainer name="product_form">
+   <block name="gallery" class="Magento\Catalog\Block\Adminhtml\Product\Helper\Form\Gallery">
+      <arguments>
+         <argument name="config" xsi:type="array">
+            <item name="label" translate="true" xsi:type="string">Images And Videos</item>
+            <item name="collapsible" xsi:type="boolean">true</item>
+            <item name="opened" xsi:type="boolean">false</item>
+            <item name="sortOrder" xsi:type="string">22</item>
+            <item name="canShow" xsi:type="boolean">true</item>
+            <item name="componentType" xsi:type="string">fieldset</item>
+         </argument>
+      </arguments>
+      <block class="Magento\Catalog\Block\Adminhtml\Product\Helper\Form\Gallery\Content" as="content">
+         <arguments>
+            <argument name="config" xsi:type="array">
+               <item name="parentComponent" xsi:type="string">product_form.product_form.block_gallery.block_gallery</item>
+            </argument>
+         </arguments>
+         <block class="Magento\ProductVideo\Block\Adminhtml\Product\Edit\NewVideo" name="new-video" template="Magento_ProductVideo::product/edit/slideout/form.phtml"/>
+      </block>
+   </block>
+</referenceContainer>
+<head>
+   <css src="Magento_Swatches::css/swatches.css"/>
+   <css src="jquery/colorpicker/css/colorpicker.css"/>
+</head>
+<update handle="catalog_product_form"/>
+<container name="content"/>
+<update handle="downloadable_items"/>
+<body>
+   <referenceBlock name="product_form">
+      <block name="product.form.configurable.matrix" class="Magento\ConfigurableProduct\Block\Adminhtml\Product\Edit\Tab\Variations\Config\Matrix" template="Magento_ConfigurableProduct::catalog/product/edit/super/wizard.phtml" as="matrix">
+         <arguments>
+            <argument name="config" xsi:type="array">
+               <item name="collapsible" xsi:type="boolean">false</item>
+               <item name="label" translate="true" xsi:type="string"/>
+               <item name="sortOrder" xsi:type="string">1000</item>
+               <item name="canShow" xsi:type="boolean">true</item>
+               <item name="componentType" xsi:type="string">fieldset</item>
+               <item name="provider" xsi:type="string">product_form.product_form_data_source</item>
+               <item name="form" xsi:type="string">product_form.product_form</item>
+               <item name="modal" xsi:type="string">configurableModal</item>
+               <item name="nameStepWizard" xsi:type="string">variation-steps-wizard</item>
+               <item name="dataScope" xsi:type="string">productFormConfigurable</item>
+               <item name="urlWizard" xsi:type="string">catalog/product/wizard</item>
+            </argument>
+         </arguments>
+      </block>
+   </referenceBlock>
+</body>
+<body>
+   <referenceBlock name="step2">
+      <action method="setTemplate">
+         <argument name="template" xsi:type="string">Magento_Swatches::catalog/product/edit/attribute/steps/attributes_values.phtml</argument>
+      </action>
+   </referenceBlock>
+</body>
+<update handle="catalog_product_superconfig_config"/>

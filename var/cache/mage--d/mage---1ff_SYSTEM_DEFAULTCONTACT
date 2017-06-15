@@ -1,0 +1,2 @@
+a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1497536050;s:6:"expire";i:9999999999;s:4:"tags";s:37:"1ff_CONFIG_SCOPES,1ff_CONFIG,1ff_MAGE";}
+a:2:{s:7:"contact";a:1:{s:7:"enabled";s:1:"1";}s:5:"email";a:3:{s:15:"recipient_email";s:17:"hello@example.com";s:21:"sender_email_identity";s:7:"custom2";s:14:"email_template";s:28:"contact_email_email_template";}}

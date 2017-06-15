@@ -1,0 +1,2 @@
+a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1497536050;s:6:"expire";i:9999999999;s:4:"tags";s:37:"1ff_CONFIG_SCOPES,1ff_CONFIG,1ff_MAGE";}
+a:1:{s:7:"options";a:6:{s:7:"enabled";s:1:"0";s:8:"lifetime";s:8:"31536000";s:16:"remember_enabled";s:1:"1";s:16:"remember_default";s:1:"1";s:12:"logout_clear";s:1:"1";s:13:"shopping_cart";s:1:"1";}}

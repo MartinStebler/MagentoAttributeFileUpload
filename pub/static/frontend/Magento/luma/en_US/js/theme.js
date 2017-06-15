@@ -1,0 +1,1 @@
+/Users/mstebler/Sites/magento-sample/vendor/magento/theme-frontend-blank/web/js/theme.js

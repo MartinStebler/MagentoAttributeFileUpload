@@ -1,0 +1,6 @@
+a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1497536050;s:6:"expire";i:9999999999;s:4:"tags";s:37:"1ff_CONFIG_SCOPES,1ff_CONFIG,1ff_MAGE";}
+a:10:{s:5:"debug";a:1:{s:8:"profiler";s:1:"0";}s:2:"js";a:6:{s:11:"merge_files";s:1:"0";s:12:"minify_files";s:1:"0";s:14:"minify_exclude";s:48:"
+                    /tiny_mce/
+                ";s:23:"session_storage_logging";s:1:"0";s:19:"session_storage_key";s:16:"collected_errors";s:18:"translate_strategy";s:10:"dictionary";}s:3:"css";a:2:{s:12:"minify_files";s:1:"0";s:14:"minify_exclude";s:48:"
+                    /tiny_mce/
+                ";}s:5:"image";a:2:{s:15:"default_adapter";s:3:"GD2";s:8:"adapters";a:2:{s:3:"GD2";a:2:{s:5:"title";s:7:"PHP GD2";s:5:"class";s:35:"Magento\Framework\Image\Adapter\Gd2";}s:11:"IMAGEMAGICK";a:2:{s:5:"title";s:11:"ImageMagick";s:5:"class";s:43:"Magento\Framework\Image\Adapter\ImageMagick";}}}s:6:"static";a:1:{s:4:"sign";s:1:"1";}s:8:"template";a:1:{s:11:"minify_html";s:1:"0";}s:8:"restrict";a:1:{s:9:"allow_ips";N;}s:30:"front_end_development_workflow";a:1:{s:4:"type";s:23:"server_side_compilation";}s:4:"grid";a:1:{s:14:"async_indexing";s:1:"0";}s:16:"translate_inline";a:3:{s:6:"active";s:1:"0";s:12:"active_admin";s:1:"0";s:14:"invalid_caches";a:1:{s:10:"block_html";N;}}}

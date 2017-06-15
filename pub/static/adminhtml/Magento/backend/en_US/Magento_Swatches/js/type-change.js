@@ -1,0 +1,1 @@
+/Users/mstebler/Sites/magento-sample/vendor/magento/module-swatches/view/adminhtml/web/js/type-change.js

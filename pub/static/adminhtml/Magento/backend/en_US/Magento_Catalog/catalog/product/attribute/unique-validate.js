@@ -1,0 +1,1 @@
+/Users/mstebler/Sites/magento-sample/vendor/magento/module-catalog/view/adminhtml/web/catalog/product/attribute/unique-validate.js

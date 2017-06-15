@@ -1,0 +1,1 @@
+/Users/mstebler/Sites/magento-sample/vendor/magento/module-checkout/view/frontend/web/js/view/minicart.js
